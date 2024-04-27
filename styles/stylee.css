@@ -1,2 +1,39 @@
+.header {
+  padding-block: 6rem;
+  background: rgba(0, 0, 0, 0.6)
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/679/original/car3.jpg?1714251839");
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header h2 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  color: rgb(250, 245, 245);
+  padding: 0 40px;
+}
 
-  
+.header span {
+  color: rgb(240, 173, 48);
+}
+
+.header a {
+  color: rgb(250, 245, 245);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: rgb(240, 173, 48);
+  padding: 12px;
+  line-height: 27px;
+  margin: 20px 40px;
+  text-decoration: none;
+}
+.header a:hover {
+  color: rgb(250, 245, 245);
+  background-color: rgb(235, 160, 23);
+  padding: 12px;
+}
