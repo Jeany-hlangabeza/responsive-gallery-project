@@ -1,3 +1,9 @@
+:root {
+  --primary-color: rgb(240, 173, 48);
+  --text-color: rgb(250, 245, 245);
+  --header-font: "Roboto", sans-serif;
+  --section-font: "Poppins", sans-serif;
+}
 .header {
   padding-block: 6rem;
   background: rgba(0, 0, 0, 0.6)
@@ -9,31 +15,31 @@
 }
 .header h2 {
   font-size: 40px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--header-font);
   font-weight: 900;
   font-style: bold;
-  color: rgb(250, 245, 245);
+  color: var(--text-color);
   padding: 0 40px;
 }
 
 .header span {
-  color: rgb(240, 173, 48);
+  color: var(--primary-color);
 }
 
 .header a {
-  color: rgb(250, 245, 245);
+  color: var(--text-color);
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--section-font);
   font-weight: 300;
   font-style: normal;
-  background-color: rgb(240, 173, 48);
+  background-color: var(--primary-color);
   padding: 12px;
   line-height: 27px;
   margin: 20px 40px;
   text-decoration: none;
 }
 .header a:hover {
-  color: rgb(250, 245, 245);
-  background-color: rgb(235, 160, 23);
+  color: var(--text-color);
+  background-color: var(--primary-color);
   padding: 12px;
 }
