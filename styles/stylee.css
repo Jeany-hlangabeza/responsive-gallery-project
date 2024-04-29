@@ -100,6 +100,9 @@ a .price {
   .header h2 {
     font-size: 32px;
   }
+  .each-listing {
+    margin-bottom: 20px;
+  }
 }
 
 .row a:hover {
