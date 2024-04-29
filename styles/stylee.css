@@ -68,6 +68,14 @@
   font-family: var(--section-font);
   opacity: 0.8;
 }
+.featured-listing-heading {
+  padding: 15px;
+  margin-top: 60px;
+  text-align: center;
+  font-family: var(--header-font);
+  font-weight: 500;
+  font-style: bold;
+}
 
 .row a {
   background-color: var(--primary-color);
@@ -84,6 +92,7 @@
   font-style: bold;
   margin-top: 8px;
 }
+
 a .price {
   font-size: 18px;
   font-weight: 900;
