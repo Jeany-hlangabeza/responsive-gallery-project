@@ -126,7 +126,7 @@ a .price {
   font-weight: 400;
 }
 .listings {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 @media (max-width: 800px) {
   .header h2 {
