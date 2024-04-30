@@ -46,7 +46,7 @@
 .landing-page-content {
   text-align: center;
   padding: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .landing-page-content h2 {
   margin-top: 30px;
@@ -78,6 +78,7 @@ i {
   font-weight: 500;
   font-style: bold;
   font-size: 38px;
+  margin-top: 20px;
 }
 .reviews {
   padding: 10px;
@@ -124,7 +125,9 @@ a .price {
   font-family: var(--section-font);
   font-weight: 400;
 }
-
+.listings {
+  margin-bottom: 30px;
+}
 @media (max-width: 800px) {
   .header h2 {
     font-size: 32px;
