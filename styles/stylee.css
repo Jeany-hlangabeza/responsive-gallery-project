@@ -46,6 +46,7 @@
 .landing-page-content {
   text-align: center;
   padding: 25px;
+  margin-bottom: 20px;
 }
 .landing-page-content h2 {
   margin-top: 30px;
@@ -53,12 +54,30 @@
   font-family: var(--header-font);
   font-weight: 700;
 }
-.secondary-heading {
+.our-services {
+  text-align: center;
   padding: 15px;
+  font-family: var(--header-font);
+  font-weight: 500;
+  font-style: bold;
+  font-size: 38px;
+}
+i {
+  font-size: 38px;
+  background-color: var(--primary-color);
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.services {
+  padding: 15px;
+}
+.secondary-heading {
   text-align: center;
   font-family: var(--header-font);
   font-weight: 500;
   font-style: bold;
+  font-size: 38px;
 }
 .reviews {
   padding: 10px;
@@ -75,6 +94,7 @@
   font-family: var(--header-font);
   font-weight: 500;
   font-style: bold;
+  font-size: 38px;
 }
 
 .row a {
@@ -112,6 +132,11 @@ a .price {
   .each-listing {
     margin-bottom: 20px;
   }
+  .our-services,
+  .secondary-heading,
+  .featured-listing-heading {
+    font-size: 28px;
+  }
 }
 
 .row a:hover {
@@ -123,4 +148,8 @@ a .price {
 .each-listing:hover {
   border: 1px solid var(--primary-color);
   transition: all ease-in-out 200ms;
+}
+.services:hover {
+  background-color: grey;
+  color: var(--text-color);
 }
