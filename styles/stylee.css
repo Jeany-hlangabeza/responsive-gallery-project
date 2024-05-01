@@ -307,7 +307,7 @@ button {
 .nav-link:hover {
   color: var(--primary-color);
 }
-.col-lg-3:hover {
+.each-listing:hover {
   border: 1px solid var(--primary-color);
 }
 .btn-explore a:hover {
