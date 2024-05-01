@@ -240,17 +240,15 @@ a .price {
 .nav-link:hover {
   color: var(--primary-color);
 }
-
+.col-lg-3:hover {
+  border: 1px solid var(--primary-color);
+}
 .btn-explore a:hover {
   background-color: rgb(248, 165, 11);
   text-decoration: none;
   color: rgb(20, 20, 20);
 }
 
-.each-listing a:hover {
-  border: 1px solid var(--primary-color);
-  transition: all ease-in-out 200ms;
-}
 .services:hover {
   background-color: grey;
   color: var(--text-color);
