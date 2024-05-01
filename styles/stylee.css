@@ -302,6 +302,12 @@ button {
   .contact-us {
     margin-top: 20px;
   }
+  .email-box {
+    margin: 10px;
+  }
+  .email i {
+    padding: 10px;
+  }
 }
 .nav-link:hover {
   color: var(--primary-color);
