@@ -25,8 +25,43 @@
 .header span {
   color: var(--primary-color);
 }
+.navbar-brand {
+  color: var(--text-color);
+  font-size: 24px;
+  font-family: var(--header-font);
+  font-weight: bold;
+}
+.navbar-brand span {
+  color: var(--primary-color);
+}
+.nav-link {
+  color: var(--text-color);
+  font-family: var(--section-font);
+  font-weight: 400;
+}
+.nav-item {
+  padding: 0 15px;
+}
+.navbar-nav {
+  margin-left: 60px;
+}
 
-.header a {
+.active {
+  color: var(--primary-color) !important;
+}
+.navbar-toggler {
+  color: var(--primary-color) !important;
+  background-color: var(--text-color) !important;
+}
+.dropdown-menu a {
+  color: var(--primary-color);
+  font-family: var(--section-font);
+  font-weight: 400;
+}
+.dropdown-menu {
+  background-color: rgb(53, 51, 51);
+}
+.btn-explore {
   color: var(--text-color);
   font-size: 18px;
   font-family: var(--section-font);
@@ -38,7 +73,7 @@
   margin: 20px 40px;
   text-decoration: none;
 }
-.header a:hover {
+.btn-explore:hover {
   color: var(--text-color);
   background-color: orange;
   padding: 12px;
@@ -156,7 +191,7 @@ a .price {
   margin-bottom: 2px;
 }
 .cars-heading {
-  font-size: 36px;
+  font-size: 48px;
   font-family: var(--header-font);
   font-weight: bold;
   margin-top: 50px;
@@ -189,17 +224,22 @@ a .price {
   margin: 0;
 }
 @media (max-width: 800px) {
-  .header h2 {
-    font-size: 32px;
-  }
   .each-listing {
     margin-bottom: 20px;
   }
   .our-services,
   .secondary-heading,
-  .featured-listing-heading {
-    font-size: 28px;
+  .featured-listing-heading,
+  .cars-heading,
+  .header h2 {
+    font-size: 32px;
   }
+  .contact-us {
+    margin-top: 20px;
+  }
+}
+.nav-link:hover {
+  color: var(--primary-color);
 }
 
 .btn-explore a:hover {
