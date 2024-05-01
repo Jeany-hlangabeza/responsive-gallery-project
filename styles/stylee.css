@@ -224,7 +224,7 @@ a .price {
 }
 
 footer {
-  margin-top: 70px;
+  margin-top: 50px;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(0, 0, 0) 0%,
@@ -255,8 +255,38 @@ footer i {
   border-radius: 50%;
   transition: all 150ms ease-in-out;
 }
-input a {
-  display: inline-block;
+h5 {
+  font-family: var(--header-font);
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.email-box {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.email-box i {
+  background-color: rgb(77, 75, 75);
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: var(--text-color);
+}
+.newsletter {
+  margin-top: 50px;
+}
+.tbox {
+  width: 260px;
+  padding: 0 10px;
+}
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 0 10px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 @media (max-width: 800px) {
   .each-listing {
