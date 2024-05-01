@@ -242,6 +242,7 @@ footer a {
   color: var(--text-color);
   font-family: var(--section-font);
   opacity: 0.7;
+  text-align: center;
 }
 footer li {
   list-style: none;
@@ -254,6 +255,7 @@ footer i {
   font-size: 16px;
   border-radius: 50%;
   transition: all 150ms ease-in-out;
+  text-align: center;
 }
 h5 {
   font-family: var(--header-font);
@@ -301,12 +303,6 @@ button {
   }
   .contact-us {
     margin-top: 20px;
-  }
-  .email-box {
-    margin: 10px;
-  }
-  .email i {
-    padding: 10px;
   }
 }
 .nav-link:hover {
