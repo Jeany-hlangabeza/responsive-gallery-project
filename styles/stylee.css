@@ -196,7 +196,6 @@ a .price {
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 20px;
-  color: var(--primary-color);
   text-align: center;
 }
 .btn-more-details {
