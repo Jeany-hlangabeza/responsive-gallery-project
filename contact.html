@@ -109,7 +109,11 @@
       </div>
     </nav>
     <h1 class="contact-heading">Contact Us</h1>
-    <form>
+    <form
+      id="contact-form"
+      action="https://formspree.io/f/mldbdzjv"
+      method="POST"
+    >
       <div class="container">
         <div class="row mt-5">
           <div class="col-md-6">
@@ -138,7 +142,11 @@
                 placeholder="Your message"
               ></textarea>
             </div>
-            <a href="#" class="btn btn-message" title="send us a message"
+            <a
+              href="#"
+              class="btn btn-message"
+              title="send us a message"
+              onclick="submitForm()"
               >Send message</a
             >
           </div>
@@ -220,5 +228,7 @@
       </div>
       <p class="text-center text-white muted mt-4">Coded by Jeany Hlangabeza</p>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
